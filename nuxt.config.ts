@@ -4,8 +4,10 @@ export default defineNuxtConfig({
   pages: true,
   ssr: false,
   devtools: { enabled: false },
+  // ...existing code...
   css: [
     'vuetify/styles',
+    // '@mdi/font/css/materialdesignicons.min.css',
   ],
   plugins: ['~/plugins/vuetify.js'],
   components: true,
@@ -18,7 +20,8 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/scripts',
     '@nuxt/test-utils',
-    '@nuxt/ui',
+    // Configure @nuxt/ui to not auto-import useLocale to avoid duplication with Vuetify
+    ['@nuxt/ui', { autoImport: { ignore: ['useLocale'] } }],
     'vuetify-nuxt-module'
   ],
   vuetify: {

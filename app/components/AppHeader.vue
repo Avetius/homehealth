@@ -6,9 +6,12 @@
 
       <div class="d-none d-md-flex ms-4">
         <v-btn text to="/">Home</v-btn>
-        <v-btn text to="/patients">About Us</v-btn>
-        <v-btn text to="/visits">Care Services</v-btn>
-        <v-btn text to="/reports">Contacts</v-btn>
+        <v-btn text to="/about">About</v-btn>
+  <v-btn text to="/contact">Contact</v-btn>
+  <v-btn text to="/upload">Upload</v-btn>
+        <v-btn text to="/patients">Patients</v-btn>
+        <v-btn text to="/visits">Visits</v-btn>
+        <v-btn text to="/reports">Reports</v-btn>
       </div>
 
       <v-spacer />

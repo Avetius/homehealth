@@ -24,6 +24,12 @@
     "typescript": "^5.9.2",
     "vue": "^3.5.22",
     "vue-router": "^4.5.1",
-    "vuetify-nuxt-module": "^0.18.7"
+    "vuetify-nuxt-module": "^0.18.7",
+    "jimp": "^0.22.10",
+    "@zxing/library": "^0.19.1",
+    "pdfjs-dist": "^3.4.120",
+    "canvas": "^2.11.2",
+    "@types/node": "^20.4.2",
+    "bwip-js": "^2.0.11"
   }
 }
